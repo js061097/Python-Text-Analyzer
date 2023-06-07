@@ -1,15 +1,26 @@
 import os
+import sys
 
 #Implement ideas like character count displaying, character count %, word count, %, based on user's choice (make everything funcitonal/as methods)
 
 if __name__=="__main__":
-    print("Code is running!\n")
-    file_name = "xenia.txt"
-    curr = open(file_name,'r',os.path.getsize(file_name)) #Make it as a package after everything is complement
+    try:
+        file_name = sys.argv[1]
+    except IndexError:
+        print("Failed to enter the path with file name")
+        sys.exit(1)
+    print("Locating the file...")
+    try:
+        curr = open(file_name,'r',os.path.getsize(file_name)) #Make it as a package after everything is complement
+    except FileNotFoundError:
+        print("File not found!")
+        sys.exit(1)
+    else:
+        print("Reading the file...")
+
+    #Make sure to close the file and end program if any exceptions are raised further down the code
     #Use psutil or resource module to get available memory
     #Add Exception handling, like if File not found - show filenotfound error
-    print(os.path.getsize(file_name))
-    print(curr.name)
     char_count = {}
     char_percentage = {}
     total_chars = 0

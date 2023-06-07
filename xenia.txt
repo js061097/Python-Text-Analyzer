@@ -1,0 +1,19 @@
+I someday wanna create a unique virtual assistants with features never seen
+before. One of the idea I have in mind is to bring some human emotion prediction.
+Does our brain operate in a particular way emotionally? Are there any patterns
+to it? I know emotions are something that can be controlled by one but I also
+know that we react with emotions differently given particular circumstances.
+Maybe the assistant can identify that? For example videos that I watch or 
+based on the words that I speak (sentiment analysis?) or the words that others
+use about me? Can it detect that and tell me not to feel that way emotionally,
+giving me ideas to divert from that and focus on positives if I'm about to 
+show negative emotions. Also think about the positives... What if it detects
+I'm going into a really happy state and it promotes it. One funny thought I
+have right now is: take for example someone's high, can it elate the mood by
+provide cool songs based on what they've taken in and the environment. Man 
+that would be epic. Imagine how people doing it for recreational purposes 
+feel. I don't know if it'll work but it's just a thought that I had. I need to
+study, work hard, believe that someway this will work and go ahead with it.
+Hey atleast there's nothing wrong in trying than learning a lot right?
+Also, I probably should research about that emotional pattern or detection 
+stuff. Adios!
